@@ -1,0 +1,10 @@
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  height: 416px;
+
+  border-radius: 30px;
+  padding: 32px 40px 32px 32px;
+  background: var(--black-gradient);
+}
