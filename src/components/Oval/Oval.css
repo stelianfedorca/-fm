@@ -8,4 +8,9 @@
 
   border-radius: 50%;
   background: var(--dark-blue);
+  border-style: none;
+}
+
+.oval-container > p {
+  color: var(--light-grey);
 }
