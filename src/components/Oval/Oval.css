@@ -7,10 +7,18 @@
   height: 48px;
 
   border-radius: 50%;
-  background: var(--dark-blue);
+  background-color: var(--dark-blue);
   border-style: none;
+  cursor: pointer;
+  color: var(--light-grey);
 }
 
-.oval-container > p {
-  color: var(--light-grey);
+button:hover {
+  background-color: var(--orange);
+  color: var(--pure-white);
+}
+
+.oval-container.selected {
+  background-color: var(--medium-grey);
+  color: var(--pure-white);
 }

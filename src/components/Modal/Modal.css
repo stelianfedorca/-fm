@@ -15,7 +15,7 @@
   margin-bottom: 0.5rem;
 }
 
-.modal-container > p {
+.modal-container p {
   color: var(--light-grey);
 }
 
@@ -29,18 +29,45 @@
 .rating-options > section {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
 }
 
-button {
+.submit-button {
   background-color: var(--orange);
   border-radius: 20px;
   padding: 10px;
   border: none;
-  color: white;
+  color: var(--pure-white);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
+  cursor: pointer;
 }
 
-button p {
+.submit-button:hover {
+  background-color: var(--pure-white);
+  color: red;
+}
+
+.submitted-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .modal-container {
+    margin: 1.5rem;
+  }
 }

@@ -1,7 +1,9 @@
 :root {
   --pure-white: #FFF;
   --light-grey: #969FAD;
+  --medium-grey: #7C8798;
   --orange: #FC7614;
+  --dark-blue: #262E38;
 
   --font-family-default: 'Overpass';
 }
@@ -44,4 +46,16 @@ line-height: 1.5;
 
 input, button, textarea, select {
   font: inherit;
+}
+
+.submitted-modal button {
+  border: none;
+  background-color: var(--dark-blue);
+  color: var(--orange);
+  padding: 5px 20px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
 }
